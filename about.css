@@ -1,0 +1,98 @@
+.item {
+    margin-left: 10px;
+    position: relative;
+}
+
+.hobbies {
+    background-color: #FFFBDB;
+    padding: 30px;
+    top: 30%;
+    transform: translate(0, -2%);
+    border-radius: 20px;
+}
+
+h1 {
+    color: black;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.head {
+    background-color: #D4EDFC;
+    border-radius: 10px;
+}
+
+.end {
+    background-color: #D4EDFC;
+    border-radius: 20px;
+    top:20%;
+    height: 100px;
+    transform: translate(0,-30%) ;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    height: 55  0px;
+}
+
+p{
+    font-size: 25px;
+    left:20%;
+    transform: translate(40%,0) ;
+}
+.p2{
+    font-size: 25px;
+    left:20%;
+    transform: translate(40%,0) ;
+}
+
+h2{
+    display: flex;
+    left: 20%;
+    top:20%;
+    transform: translate(30%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.item:hover h3 {
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 'bold'
+}
+
+.item:hover img {
+    opacity: 0.4;
+    scale: (1.1, 1.1);
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #FF4000;
+    font-family: sans-serif;
+}
+
+.item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item {
+    margin-top: 50px;
+}
+
+img {
+    border: solid;
+    border-radius: 20px;
+    border-color: aqua;
+
+}
